@@ -1,0 +1,39 @@
+/*
+font-family: 'Open Sans', sans-serif;
+weights: 300 , 400, 700
+*/
+
+:root {
+  /*Colors*/
+  --primary-color: rgb(23, 69, 85);
+  --text-color: rgb(255, 255, 255);
+  --accent-color: rgb(244, 124, 61);
+  /*Font*/
+  --ff: 'Open Sans', sans-serif;
+  --fw-bold: 700;
+  --fw-regular: 300;
+  /*Sizing*/
+  --h1: 1.5rem;
+  --p: 1rem;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  background-image: url(./images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: -150px -290px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
