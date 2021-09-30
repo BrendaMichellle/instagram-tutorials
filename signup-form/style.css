@@ -34,7 +34,7 @@ body {
   background-image: url(./images/background.jpeg);
   background-repeat: no-repeat;
   background-size: 560px;
-  background-position: -15px -230px;
+  background-position: -45px -230px;
   background-color: rgb(14, 46, 64);
 }
 
@@ -69,7 +69,7 @@ body {
 .headline__title {
   font-size: var(--h1);
   font-weight: var(--fw-bold);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .headline__desc {
@@ -139,18 +139,18 @@ label:nth-of-type(2) {
 }
 
 .button {
-  width: 240px;
+  width: 300px;
   height: 40px;
   color: var(--text-color);
   background-color: var(--accent-color);
   border-radius: 20px;
   border: none;
   border-image: none;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .button__disclaimer {
-  font-size: var(--p);
+  font-size: 0.6rem;
   color: var(--tertiary__text);
 }
 
